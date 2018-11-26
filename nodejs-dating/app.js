@@ -14,8 +14,8 @@ mongoose.connect('mongodb://dev:passwd123@ds263109.mlab.com:63109/avansdating', 
 
 // connect to neo4j db
 neo.driver = neo4j.driver(
-    'bolt://hobby-imgbemcofhjngbkeihlmpfbl.dbs.graphenedb.com:24786', 
-    neo4j.auth.basic('dev', 'b.KjsQYVOye50q.Wsu6mTnSutd91R39')
+    'bolt://hobby-fjckodfghkjagbkedpkebfbl.dbs.graphenedb.com:24786', 
+    neo4j.auth.basic('admin', 'b.KKX66eprO6KF.qaR1qgeEkRWQDrpT')
 );
 
 // on shutdown disconnect from neo4j db
